@@ -1,0 +1,5 @@
+starting off with basics of assembly languange and moving into concepts before specifying syntax would be the best start. gauging how much the player knows should be the first start to how much the game would accompany the player.
+let there be three layers
+1. beginner:- knows nothing about programming, nor hardware. the player will be presented with a set of minigames which would give short explaination of the basics
+2.sub-intermediate:- knows basic parts of programming. variables, memory, simple hardware. main function,simple operation(addition,subtraction,multiplication,string operations)
+3. intermediate and above:-knows about functions,pointers,arrays,basic logic programs etc  

@@ -1,0 +1,16 @@
+public class AttachCameraToObject : MonoBehaviour {
+    public GameObject OTAT; 
+    public Vector3 cameraOffset;
+    public float CR = 5f; 
+    private Camera mainCamera;
+
+    private void Start() {
+        mainCamera = Camera.main;
+    }
+
+    private void LateUpdate() {
+        mainCamera.transform.position = OTAT.transform.position + cameraOffset;
+        float horizontalInput = Input.GetAxis("Mouse X") * CR;
+        mainCamera.transform.RotateAround(OTAT.transform.position, Vector3.up, horizontalInput);
+    }
+}
